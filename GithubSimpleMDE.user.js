@@ -8,8 +8,8 @@
 // @license     MIT
 // @homepage    https://github.com/arith-alexander/GithubSimpleMDE#readme
 // @homepageURL https://github.com/arith-alexander/GithubSimpleMDE#readme
-// @downloadURL https://github.com/arith-alexander/GithubSimpleMDE/GithubSimpleMDE.user.js
-// @updateURL   https://github.com/arith-alexander/GithubSimpleMDE/GithubSimpleMDE.user.js
+// @downloadURL https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js
+// @updateURL   https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js
 // @supportURL  https://github.com/arith-alexander/GithubSimpleMDE/issues
 // @version     1.0
 // @run-at      document-idle
