@@ -31,10 +31,18 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 
 
 # で？
-・ファイル編集画面を開いて
+ファイル編集画面を開いて
 
 <img src="https://arismile-documents.s3.amazonaws.com/pen_1452653008.PNG" width="400">
 
-・エディターを切り替える
+エディターを切り替える
 
 <img src="https://arismile-documents.s3.amazonaws.com/bar_1452653119.PNG" width="400">
+
+フール画面二パネルリアルタイムモードのボタン
+
+<img src="https://arismile-documents.s3.amazonaws.com/button_1452654197.PNG" width="400">
+
+画像を張り付けるのに、ここにDrag and dropしてください
+
+<img src="https://arismile-documents.s3.amazonaws.com/zone_1452654391.PNG" width="400">
