@@ -10,7 +10,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 
 # インストールの手順
 ## Firefox
-* about:config でxpinstall.signatures.requireをfalseにする。
+* [about:config](about:config) でxpinstall.signatures.requireをfalseにする。
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/githubCspOverride.xpi をクリックして拡張をインストールするする。 Windowsの場合はクリックするだけでインストールポップアップがでますが、Macは拡張ファイルをセーブしてブラウザにDrag and Dropする必要があります。
 * Greasemonkeyをインストールする　https://addons.mozilla.org/ru/firefox/addon/greasemonkey/
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
