@@ -11,7 +11,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 # インストールの手順
 ## Firefox
 * about:config でxpinstall.signatures.requireをfalseにする。
-* https://github.com/arith-alexander/GithubSimpleMDE/raw/master/githubCspOverride.xpi をクリックして拡張をインストールするする。 Windowsの場合はクリックするだけでインストールポップアップがでますが、Macは拡張ファイルをセーブしてブラウザにDrag and Dropする必要があります。
+* https://github.com/arith-alexander/GithubSimpleMDE/raw/master/githubCspOverride.xpi をクリックして拡張をインストールする。 Windowsの場合はクリックするだけでインストールポップアップがでますが、Macは拡張ファイルをセーブしてブラウザにDrag and Dropする必要があります。
 * Greasemonkeyをインストールする　https://addons.mozilla.org/ru/firefox/addon/greasemonkey/
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
 * var gsmde = new GithubSimpleMDE("AKIA....KFYA", "lhSxx.....2ExRk8p");　のところでAWS S3 Access Key IdとAWS S3 Secret Access Keyを設定する。
