@@ -21,7 +21,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 ## Chrome
 * CSP Testerをインストールする https://chrome.google.com/webstore/detail/csp-tester/ehmipebdmhlmikaopdfoinmcjhhfadlf
 * ブラウザの右上にあるCSP Testerのアイコンをクリックして、次の設定値を入力する：
-  * Url pattern:　https://github.com/\*
+  * Url pattern:　https://github.com/*
   * Policy: style-src style-src assets-cdn.github.com maxcdn.bootstrapcdn.com 'self' 'unsafe-inline'
 * Tampermonkeyをインストールする　https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
