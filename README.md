@@ -16,6 +16,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
 * var gsmde = new GithubSimpleMDE("AKIA....KFYA", "lhSxx.....2ExRk8p");　のところでAWS S3 Access Key IdとAWS S3 Secret Access Keyを設定する。
 * セーブして、ブラウザにDrag and dropして、出たポップアップでおｋを押すことでユザースクリプトをインストールする。
+* 目次自動生成拡張をインストール https://addons.mozilla.org/ja/firefox/addon/github-readme-toc/
 * ブラウザを再起動する。
 
 ## Chrome
@@ -27,6 +28,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 * https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
 * var gsmde = new GithubSimpleMDE("AKIA....KFYA", "lhSxx.....2ExRk8p");　のところでAWS S3 Access Key IdとAWS S3 Secret Access Keyを設定する。
 * セーブして、ブラウザにDrag and dropして、出たポップアップでおｋを押すことでユザースクリプトをインストールする。
+* 目次自動生成拡張をインストール https://chrome.google.com/webstore/detail/github-readme-table-of-co/hlkhpeomjgelmljaknhoboeohhgmmgcn
 * ブラウザを再起動する。
 
 
