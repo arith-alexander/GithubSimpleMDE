@@ -21,13 +21,14 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
 
 ## Chrome
 * CSP Testerをインストールする https://chrome.google.com/webstore/detail/csp-tester/ehmipebdmhlmikaopdfoinmcjhhfadlf
-* ブラウザの右上にあるCSP Testerのアイコンをクリックして、次の設定値を入力する：
-  * Url pattern:　[https://github.com/*](https://github.com/*)
-  * Policy: style-src style-src assets-cdn.github.com maxcdn.bootstrapcdn.com 'self' 'unsafe-inline'
+* ブラウザの右上にあるCSP Testerのアイコンをクリックして、Simple modeをクリックして、次の設定値を入力してセーブボタンを押す：
+  * **Url pattern**:　[https://github.com/*](https://github.com/*)
+  * **Style-src**: style-src assets-cdn.github.com maxcdn.bootstrapcdn.com
+    * selfとunsafe-inlineチェック　<img src="https://arismile-documents.s3.amazonaws.com/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-02-16%201.45.19_1455554736.png" width="400">
 * Tampermonkeyをインストールする　https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ru
-* https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をｄｌしてテクストエディターで開く。
-* var gsmde = new GithubSimpleMDE("AKIA....KFYA", "lhSxx.....2ExRk8p");　のところでAWS S3 Access Key IdとAWS S3 Secret Access Keyを設定する。
-* セーブして、ブラウザにDrag and dropして、出たポップアップでおｋを押すことでユザースクリプトをインストールする。
+* ブラウザの右上にあるTampermonkeyのアイコンをクリックして→ダッシュボード→設定のモード:上級者→サイトのコンテンツ セキュリティ ポリシー (CSP) がある場合は、その CSP に Tampermonkey を追加する:いえ
+* https://github.com/arith-alexander/GithubSimpleMDE/raw/master/GithubSimpleMDE.user.js をクリック。Tampermonkeyが新しいタブでユーザースクリプトの内容を表示するはず。
+* var gsmde = new GithubSimpleMDE("AKIA....KFYA", "lhSxx.....2ExRk8p");　のところでAWS S3 Access Key IdとAWS S3 Secret Access Keyを設定して、セーブ
 * 目次自動生成拡張をインストール https://chrome.google.com/webstore/detail/github-readme-table-of-co/hlkhpeomjgelmljaknhoboeohhgmmgcn
 * ブラウザを再起動する。
 
