@@ -25,6 +25,7 @@ http://nextstepwebs.github.io/simplemde-markdown-editor/
   * **Url pattern**:　[https://github.com/*](https://github.com/*)
   * **Style-src**: style-src assets-cdn.github.com maxcdn.bootstrapcdn.com
     * selfとunsafe-inlineチェック
+  * Activeチェック
 
 <img src="https://arismile-documents.s3.amazonaws.com/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-02-16%201.45.19_1455554736.png" width="400">
 
