@@ -20,7 +20,7 @@
 
 // first parameter is AWS S3 Access Key Id
 // second parameter is AWS S3 Secret Access Key
-var gsmde = new GithubSimpleMDE("AKI...KFYA", "lhSxx1X...32ExRk8p");
+var gsmde = new GithubSimpleMDE("AKI...MKFYA", "lhSxx1...xRk8p");
 gsmde.exec();
 
 /**
@@ -71,12 +71,14 @@ function GithubSimpleMDE(AWSAccessKeyId, AWSSecretAccessKey) {
 	// so github can't copy images to https://camo.githubusercontent.com.
 	// We need to replace github's src (https://camo.githubusercontent.com) with original s3 src to view images. 
 	this.replaceImageSrc = function() {
-		$("[data-canonical-src]")
-			.attr("src", $("[data-canonical-src]")
-			.attr("data-canonical-src"))
-		.parent()
-			.attr("href", $("[data-canonical-src]")
-			.attr("data-canonical-src"));
+		$("[data-canonical-src]").each(function(){
+			$(this)
+				.attr("src", $(this)
+				.attr("data-canonical-src"))
+			.parent()
+				.attr("href", $(this)
+				.attr("data-canonical-src"));			
+			});
 	};																	 
 
 	// initialize simplemde
